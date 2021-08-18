@@ -20,6 +20,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   font-family: Open Sans Condensed;
+  text-decoration: none;
 }
 
 /* расположение блока ссылок */
