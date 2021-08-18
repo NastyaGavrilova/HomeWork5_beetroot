@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: absolute;
+  background: linear-gradient(
+      0deg,
+      rgba(51, 51, 51, 0.85),
+      rgba(51, 51, 51, 0.85)
+    ),
+    url(./images/bg.png);
+  font-family: Open Sans Condensed;
+}
+/* навигация ссылок */
+.navigation a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Open Sans Condensed;
+}
+
+/* расположение блока ссылок */
+.nav_link {
+  display: flex;
+  padding-top: 405px;
+  padding-right: 690px;
+  padding-left: 405px;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  flex-direction: row;
+}
+
+/* расположение ссылок между собой */
+.main_link a {
+  padding-left: 63px;
+}
+
+.about_link {
+  padding-left: 63px;
+  padding-right: 0;
+}
+
+.productions_link {
+  padding-left: 63px;
+  padding-right: 0;
+}
+
+.partners_link {
+  padding-left: 63px;
+  padding-right: 0;
+}
+
+.contacts_link {
+  padding-left: 63px;
+}
+
+/* стилизация оранжевой линии */
+.orange_line {
+  border: 2px solid #d1a954;
+  position: absolute;
+  width: 139px;
+  height: 0px;
+  left: 1396px;
+  top: 77px;
+}
+
+/* стилизация номера телефона */
+.phone {
+  position: absolute;
+  flex-direction: row;
+  text-align: right;
+  width: 139px;
+  height: 22px;
+  left: 1396px;
+  top: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* расположение блока контенера в которой есть титл и главные текст */
+.container {
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 405px;
+  padding-top: 307px;
+  padding-right: 975px;
+}
+
+/* большой текст */
+.title_text {
+  font-family: Open Sans Condensed;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 540px;
+  height: 68px;
+  flex-direction: row;
+}
+
+/* текст под большим */
+.main_text {
+  font-family: Open Sans;
+  font-style: normal;
+  padding-top: 50px;
+  width: 540px;
+  height: 79px;
+  line-height: 150%;
+}
+
+/* ссылка стилизованная под кнопку */
+.afisha_button {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 405px;
+  top: 630px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* display: flex; */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #d1a954;
+}
+
+/* расположение наложенной картинки */
+.over_and_under_img {
+  position: absolute;
+  width: 380px;
+  height: 518.05px;
+  left: 1070px;
+  top: 267px;
+}
+
+/* стилизация слайдера и стрелок */
+.slider {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* левый слайдер */
+.left_slider {
+  position: absolute;
+  width: 110.92px;
+  height: 25.39px;
+  left: 1339.08px;
+  top: 820.61px;
+}
+/* правый слайдер */
+.right_slider {
+  position: absolute;
+  width: 110.92px;
+  height: 25.39px;
+  left: 1070px;
+  top: 820.61px;
+}
+
+/* расположение вертикального блока */
+.vertical_section {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 1045px;
+  left: 0px;
+  top: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  background: rgba(51, 51, 51, 0.75);
+}
+
+/* вертикальный текст */
+.contact_text {
+  position: absolute;
+  width: 247px;
+  height: 25px;
+  left: -45px;
+  top: 485px;
+  flex-direction: row;
+  transform: rotate(-90deg);
+}
+/* вертикальная линия */
+.vertical_line {
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  left: 39px;
+  top: 705px;
+
+  border: 2px solid #c4c4c4;
+  transform: rotate(90deg);
+}
+/* блок иконок соц сетей */
+.social_links {
+  position: absolute;
+  width: 26px;
+  height: 174px;
+  left: 64px;
+  top: 785px;
+}
+/* расположение между собой иконок */
+.instagram_link {
+  position: absolute;
+  height: 26px;
+}
+
+.facebook_link {
+  position: absolute;
+  width: 15px;
+  height: 26px;
+  top: 65px;
+  left: 5px;
+}
+
+.vkontakte_link {
+  position: absolute;
+  height: 14px;
+  top: 130px;
+}
+
+.youtube_link {
+  position: absolute;
+  height: 18px;
+  top: 195px;
+}
