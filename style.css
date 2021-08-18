@@ -5,7 +5,7 @@
 }
 
 body {
-  position: absolute;
+  position: fixed;
   background: linear-gradient(
       0deg,
       rgba(51, 51, 51, 0.85),
@@ -66,7 +66,7 @@ body {
 /* стилизация оранжевой линии */
 .orange_line {
   border: 2px solid #d1a954;
-  position: absolute;
+  position: fixed;
   width: 139px;
   height: 0px;
   left: 1396px;
@@ -75,7 +75,7 @@ body {
 
 /* стилизация номера телефона */
 .phone {
-  position: absolute;
+  position: fixed;
   flex-direction: row;
   text-align: right;
   width: 139px;
@@ -123,7 +123,7 @@ body {
 
 /* ссылка стилизованная под кнопку */
 .afisha_button {
-  position: absolute;
+  position: fixed;
   width: 160px;
   height: 50px;
   left: 405px;
@@ -158,7 +158,7 @@ body {
 }
 /* левый слайдер */
 .left_slider {
-  position: absolute;
+  position: fixed;
   width: 110.92px;
   height: 25.39px;
   left: 1339.08px;
@@ -166,7 +166,7 @@ body {
 }
 /* правый слайдер */
 .right_slider {
-  position: absolute;
+  position: fixed;
   width: 110.92px;
   height: 25.39px;
   left: 1070px;
@@ -176,7 +176,7 @@ body {
 /* расположение вертикального блока */
 .vertical_section {
   display: flex;
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 1045px;
   left: 0px;
@@ -192,7 +192,7 @@ body {
 
 /* вертикальный текст */
 .contact_text {
-  position: absolute;
+  position: fixed;
   width: 247px;
   height: 25px;
   left: -45px;
@@ -202,7 +202,7 @@ body {
 }
 /* вертикальная линия */
 .vertical_line {
-  position: absolute;
+  position: fixed;
   width: 80px;
   height: 0px;
   left: 39px;
@@ -213,7 +213,7 @@ body {
 }
 /* блок иконок соц сетей */
 .social_links {
-  position: absolute;
+  position: fixed;
   width: 26px;
   height: 174px;
   left: 64px;
@@ -221,26 +221,28 @@ body {
 }
 /* расположение между собой иконок */
 .instagram_link {
-  position: absolute;
+  position: fixed;
   height: 26px;
 }
 
 .facebook_link {
-  position: absolute;
+  position: fixed;
   width: 15px;
   height: 26px;
-  top: 65px;
-  left: 5px;
+  left: 69px;
+  top: 841px;
 }
 
 .vkontakte_link {
-  position: absolute;
+  position: fixed;
   height: 14px;
-  top: 130px;
+  left: 64px;
+  top: 897px;
 }
 
 .youtube_link {
-  position: absolute;
+  position: fixed;
   height: 18px;
-  top: 195px;
+  left: 64px;
+  top: 941px;
 }
