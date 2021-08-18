@@ -196,7 +196,7 @@ body {
   width: 247px;
   height: 25px;
   left: -45px;
-  top: 485px;
+  top: 425px;
   flex-direction: row;
   transform: rotate(-90deg);
 }
@@ -206,7 +206,7 @@ body {
   width: 80px;
   height: 0px;
   left: 39px;
-  top: 705px;
+  top: 625px;
 
   border: 2px solid #c4c4c4;
   transform: rotate(90deg);
@@ -223,6 +223,7 @@ body {
 .instagram_link {
   position: fixed;
   height: 26px;
+  top: 695px;
 }
 
 .facebook_link {
@@ -230,19 +231,19 @@ body {
   width: 15px;
   height: 26px;
   left: 69px;
-  top: 841px;
+  top: 745px;
 }
 
 .vkontakte_link {
   position: fixed;
   height: 14px;
   left: 64px;
-  top: 897px;
+  top: 795px;
 }
 
 .youtube_link {
   position: fixed;
   height: 18px;
   left: 64px;
-  top: 941px;
+  top: 835px;
 }
